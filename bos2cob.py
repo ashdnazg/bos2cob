@@ -1123,9 +1123,9 @@ def main(path):
 
 		# DEBUG FUNCTIONS
 
-		for f in comp._functions:
-			func_path = "%s_%s.%s" % (os.path.splitext(bos_file_path)[0], f, COB_EXT)
-			open(func_path, "wb").write(comp._functions_code[f])
+		# for f in comp._functions:
+			# func_path = "%s_%s.%s" % (os.path.splitext(bos_file_path)[0], f, COB_EXT)
+			# open(func_path, "wb").write(comp._functions_code[f])
 
 
 
